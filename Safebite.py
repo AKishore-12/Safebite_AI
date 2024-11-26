@@ -5,7 +5,7 @@ import joblib
 import requests
 
 # URL of the Flask API
-API_URL = "http://0.0.0.0/predict"
+API_URL = "localhost:5000/predict"
 
 # Load the model
 model = joblib.load("Model/Allergen_detection.pkl")
